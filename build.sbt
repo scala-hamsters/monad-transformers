@@ -1,5 +1,5 @@
 scalaVersion := "2.13.1"
-name := "monad-transfomers"
+name := "monad-transformers"
 organization := "io.github.scala-hamsters"
 version := "1.0.0"
 
