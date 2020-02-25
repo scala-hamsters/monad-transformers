@@ -1,5 +1,7 @@
 #  Monad transformers
 
+This is a port of Hamsters monad transformers to Scala 2.13.
+
 Example : combine Future and Option types then make it work in a for comprehension.
 More information on why it's useful [here](http://loicdescotte.github.io/posts/scala-compose-option-future/).
 
