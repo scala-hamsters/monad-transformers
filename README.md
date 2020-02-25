@@ -56,3 +56,12 @@ val composedAB: Future[Either[String, Int]] = for {
 If you use other combinations of F[Option[A]] or F[Either[L,R]], you can bring your own `Monad` implicit instance and work with `OptionT` or `EitherT`. `Future` and `Option` instances are provided by default.
 
 ---
+
+# Install
+
+Add this to you build.sbt : 
+
+```scala
+resolvers += Resolver.bintrayRepo("loicdescotte", "Hamsters") 
+libraryDependencies += "io.github.scala-hamsters" %% "monad-transformers" % "1.0.0"
+```
