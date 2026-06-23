@@ -1,6 +1,7 @@
 #  Monad transformers
 
-This is a port of Hamsters monad transformers to Scala 2.13.
+This is a port of Hamsters monad transformers to Scala 2.13.  
+Update June 2026: Hamsters full lib is now compatible with Scala 3 and 2.13
 
 Example : combine Future and Option types then make it work in a for comprehension.
 More information on why it's useful [here](http://loicdescotte.github.io/posts/scala-compose-option-future/).
